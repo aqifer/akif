@@ -1,3 +1,7 @@
+print("hello world")
+
+#salffev/cemal akif özateş
+
 import stripe
 
 # Stripe API anahtarını tanımlayın
