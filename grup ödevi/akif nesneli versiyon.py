@@ -1,3 +1,7 @@
+prinjt("hello world")
+
+#salffev/cemalakif özateş
+
 from tkinter import *
 from tkinter import messagebox
 
