@@ -14,7 +14,7 @@ card = stripe.Customer.create_source(customer.id, source="tok_visa")
 # Ödeme işlemi için gerekli parametreleri belirleyin
 charge = stripe.Charge.create(
     amount=2000,
-    currency="para",
+    currency="türk lirasi",
     customer=customer.id,
     source=card.id,
     description="Test payment"
